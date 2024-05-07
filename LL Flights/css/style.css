@@ -1,0 +1,1693 @@
+* {
+    font-family: 'GT Walsheim Pro';
+    font-weight: 400;
+    font-style: normal;
+}
+.body{
+    background: #FFFFFF;
+}
+h1{
+    color: #140C68;
+    font-weight: 700;
+    font-family: 'GT Walsheim Pro';
+    font-size: 31px;
+    margin: 20px 0px 0px 0px;
+    font-style: normal;
+    line-height: normal;
+}
+.Flight_banner {
+background: url(../img/flight.png);
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+li.nav-item {
+    margin: 15px 20px 0px 0px;
+}
+/* nav.navbar.navbar-expand-lg.navbar-light {
+    float: right;
+} */
+ul {
+    list-style-type: none;
+  }
+ul.nav1 {
+
+    display: inline-flex;
+    float: inline-end;
+        margin: 0px -15px 0px -90px;
+}
+
+   
+a.nav-link.dropdown-toggle.s {
+    color: black; 
+    position: relative;
+    top: -1px;
+    margin: -3px;
+}
+i.fab.fa-whatsapp {
+    padding: 0px 7px;
+}
+.tel{
+   
+    background: rgba(6, 50, 102, 0.12);
+    COLOR: #0b4589;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    position: relative;
+    top: 7px;
+}
+a#navbarDropdownMenuLink { 
+    border: 1px solid !important;
+    background: white!important;
+    border-radius: 5px;
+    padding: 5px 16px;   
+    COLOR: #063266;
+}
+
+a.agent {
+    border: 1px solid!important;
+    background-color: white;
+    COLOR: #063266;
+text-decoration: none;
+    border-radius: 5px;
+    padding: 9px 16px;
+    position: relative;
+    top: 7px;
+}
+a.sign_in{
+    border: 1px solid!important;
+    background-color: white;
+    COLOR: #063266;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 9px 16px;
+    position: relative;
+    top: 7px;
+}
+a.sign_up{
+   
+    background: #28AAE1;
+    COLOR: #063266;
+    border-radius: 5px;
+    padding: 9px 20px;
+    position: relative;
+    top: 7px;
+    text-decoration: none;
+}
+ul.nav.nav-tabs {
+    justify-content: center;
+    BORDER: NONE;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    top: -24px;
+    z-index: 1;
+}
+
+
+/*booking*/
+.row.labelinput {
+    margin: 0px 0px;
+}
+.form-search{
+background: white;
+border-radius: 8px;
+position: relative;
+top: -40px;
+box-shadow: 20px 20px 120px 67px #0000000D;
+}
+
+.col.btn {
+    margin: 15px 0px 0px -40px;
+}
+li.nav-item.TAB {
+    margin: 0px 5px;
+    TEXT-ALIGN: CENTER;
+   /* BORDER: 1PX SOLID BLACK;*/
+   padding: 8px 5px 8px 5px;
+    BORDER-RADIUS: 9PX;
+    background-color: WHITE;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.radio{
+    display: flex;
+    padding: 25px 0px 0px 1px;
+    margin: 0px 10px;
+}
+.radio-inline:hover {
+    background: rgba(40, 170, 225, 1);
+    color: white;
+}
+input[type="radio"]{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+.way{
+    font-family: GT Walsheim Pro;
+}
+.radio-inline{
+   /*background: rgba(40, 170, 225, 1);*/
+   background: whitesmoke;
+    border-radius: 5px;
+    padding: 4px 10px 4px 10px;
+    margin: 0px 10px 0px 0px;
+}
+a.nav-link {
+    border: none!important;
+    background: none!important;
+    color: black;
+}
+a.nav-link.active {
+ border: none;
+ color: black;
+}a.nav-link:hover {
+color: white;
+}
+a.nav-link.active:hover {
+    color: white;
+}
+li.nav-item.active.TAB:hover {
+    background: linear-gradient(180deg, #668BEA 0%, #28AAE1 100%);
+    color: white;
+}
+li.nav-item.TAB:hover {
+    background: linear-gradient(180deg, #668BEA 0%, #28AAE1 100%);
+    color: white;
+}
+.Travellers{
+    font-family: Roboto;
+font-size: 14px;
+border: 1px solid;
+border-radius: 5px;
+}
+.btn.btn-primary.s{
+    border: none;
+    padding: 6px 35px; 
+    background:#FF4500;
+    border-radius: 5px;
+    font-family: 'GT Walsheim Pro';
+    font-size: 18px;
+}
+h3.head {
+    color: #140C68;
+    font-family: 'GT Walsheim Pro';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h3.head1 {
+    color: #000;
+font-family: GT Walsheim Pro;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.place{
+
+
+        background: url("../img/maps-and-flags.png") no-repeat 7px;
+        background-size: 17px;
+        font-family: GT Walsheim Pro;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 5px 0px 5px 25px;
+}
+
+.date{
+
+    padding: 5px 0px 5px 27px;
+    background: url("../img/calendar.png") no-repeat 7PX;
+    background-size: 17px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.labelcontent{
+    font-family: 'GT Walsheim Pro';
+font-size: 16px;
+line-height: 16px;
+}
+.direct{
+    font-family: 'GT Walsheim Pro';
+font-size: 13px;
+line-height: 15px;
+margin: 1px 0px 0px 9px;
+}
+.directbox{
+    position: relative;
+    top: 2px;
+}
+/*offers*/
+a#tabflight {
+    margin: 10px 0px 0px 0px;
+}
+a#tabhotel{
+    margin: 3px 0px 0px 0px;
+}
+a#tabtour{
+    margin: 8px 0px 0px 0px;
+}
+a#tabholiday{
+    margin: 4px 0px 0px 0px;
+}
+a#tabcar{
+    margin: 10px 0px 0px 0px;
+}
+a#tabcruise{
+    margin: 10px 0px 0px 0px;
+}
+a#tabtrain{
+    margin: 5px 0px 0px 0px;
+}
+.offr{
+    position: relative;
+    top: 12px;
+    PADDING: 20px 0PX 20PX 0PX;
+}
+.special{
+    margin: 0px 0px 60px 0px;
+    background: rgba(255, 255, 255, 1);
+    
+}
+.bgs_whites {
+    border: 1px solid #dddd;
+    border-color: rgba(230, 232, 236, 1);
+    margin: 25px 20px 0px 0px;
+    border-radius: 17.1px;
+    background: #FFFF;
+    box-shadow: 0px px 5px 0px #00000033;
+}
+.imgoffer{
+    width: 100%;
+    /* padding: 12px; */
+    border-radius: 17px;
+
+}
+.off{
+    margin: 30px 0px 30px 0p
+}
+.Domestic{
+    font-family: 'Inter';
+    margin: 20px 0px 0px 0px;
+color: #373F41;
+}
+.GOSBI{
+    font-size: 16px;
+}
+
+.file{
+    padding-left: 30px;
+    background: url("../img/FILE.png") no-repeat 5px;
+    background-size: 17px;
+    position: absolute;
+    right: 110px;
+}
+
+.sub{
+    font-family: 'Poppins';
+font-size: 14px;
+    padding: 0px 80px 0px 0px;
+color: #777E90;
+;
+
+}
+/*Afford*/
+.reli1{
+    color: #FFF;
+    font-family: 'GT Walsheim Pro';
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.most-d{
+    display: flex;
+}
+.reliable{
+background: #FF4500;
+}
+.afford{
+    border:1px solid;
+    color:white;
+    border-radius: 10px;
+    margin: 45px 20px;
+    padding: 5px 20px;
+}
+.afford2{
+    border:1px solid;
+    color:white;
+    border-radius: 10px;
+    margin: 45px 20px 45px 0px;
+    padding: 5px 20px;
+}
+.afford3{
+    border:1px solid;
+    color:white;
+    border-radius: 10px;
+    margin: 45px 0px;
+    padding: 5px 20px;
+}
+.most{
+    margin: 40px 40px 0px 0px;
+color: #FFFF;
+}
+
+/*Top Hotel*/
+.card.package {
+    margin: 20px 0px 0px 20px;
+    border: none;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.Destination{
+    margin: 25px 0px 0px -20px;
+    position: relative;
+    left: 20px;
+    font-weight: bolder;
+    color: rgba(20, 12, 104, 1);
+}
+/*Top flights*/
+svg.arrow {
+    margin: 0px 10px;
+}
+.Dtop{
+        margin: 0px 0px 25px 0px;
+        position: relative;
+        bottom: -12px;
+}
+.Dflights{
+  background: rgba(242, 245, 250, 1);
+  padding: 10px 0px 20px 0px;
+
+}
+.flow{
+    width: 20%;
+}
+.col.flo {
+    margin: 17px 0px 0px 0px;
+    /*border: 1px solid lightgrey;
+    box-shadow: 0px 1px #888888;*/
+        box-shadow: 0px 0px 4px 0px;
+    background-color: WHITE;
+    border-radius: 5px;
+}
+.Holiday{
+    margin: 40px 0px 0px 0px;
+}
+
+.popular{
+    margin: 0px 0px 30px 0px;
+}
+
+/*---*/
+/*popular Destinations */
+/*.img.group1 {
+    width: 100%;
+    margin: 2px;
+}*/
+.Activities{
+    margin: 40px 0px 0px -13px;
+}
+.price{
+    position:absolute;
+    margin: 20px 20px;
+
+}
+.price1{
+    color: #FFF;
+font-family: 'Proxima Nova';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 83.333% */
+}
+.tour{
+    color: #FFF;
+font-family: 'GT Walsheim Pro';
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 108.333% */
+}
+.london{
+    margin: 0px 0px 0px 25px;
+    
+}
+
+.describe {
+    position: relative;
+    top: -90px;
+    padding: 0px 42px;
+color: white;
+}
+.owl-nav {
+    position: relative;
+    bottom: 128px;
+    float: right;
+    width: 100%;
+  }
+  .col-lg-6.top {
+    margin: -60px 0px 0px 0px;
+  }
+  .act{
+
+    background: url("../img/Group.png") no-repeat 8px;
+    background-size: 15px;
+    position: relative;
+    top: -45px;
+    padding: 0px 0px 0px 28px;
+font-size: 20px;
+font-weight: 600;
+    color: white;
+ }
+ .Activity {
+    position: relative;
+    top: -60px;
+}
+/*Footer*/
+.Accept{
+    background: #F2F2F2;
+        margin: 0px -4px;
+
+}
+.ftmobil{
+   width: 130%;
+}
+.footmobile{
+    float: right;
+    MARGIN: -43PX 330PX 0PX 0PX;
+}
+.app{
+    MARGIN: 0PX 0PX 0PX 250PX;
+    font-family: 'GT Walsheim Pro';
+    font-size: 25px;
+    font-weight: 700;
+}
+.log{
+    MARGIN: 0PX 0PX 0PX 250PX;
+    padding: 0px 0px 30px 0px;
+    color: #727272;
+    font-family: 'Proxima Nova';
+font-size: 16px;
+
+}
+.foot{
+    background: #140C68;
+        margin: 0px -4px;
+    color: white;
+}
+.text{
+    text-decoration: none;
+    color: white!important;
+}
+.bt1{
+    background: #FEA401;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    padding: 5PX 25PX;
+    top: -40PX;
+    RIGHT: -100PX;
+    float: right;
+    color: white;
+}
+.form-control{
+    background: url(../img/msg.png) no-repeat 10px;
+    background-size: 20px;
+    padding: 10px 35px;
+    width: 150%;
+    height: 45px;
+    border: none;
+    box-shadow: 0px 0px 9px -5px white;
+    border-radius: 5px;
+    background-color: none;
+    background-color: transparent;
+    /* color: white; */
+}
+.agency{
+margin: 34px 0px 0px 0px;
+}
+a#insta {
+        background: radial-gradient(110.28% 110.28% at 20.5% 87.39%, #FAE100 0%, #FADC04 5.44%, #FBCE0E 11.67%, #FCB720 18.29%, #FE9838 25.14%, #FF7950 30.54%, #FF1C74 49.22%, #6C1CD1 100%);
+}
+a#fb{
+    background: #475993;
+}
+img.appStore {
+    margin: 0px 10px 0px 30px;
+}
+.applog{
+margin: 30px 0px 0px 0px;
+}
+p.paparagrh {
+color: #727272;
+font-family: Proxima Nova;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/*responsive--1200-768*/
+@media only screen and (max-width: 1200px) and (min-width:992px ) {
+    .container {
+        max-width: 1100px;
+    }
+    ul.nav.nav-tabs {
+        top: -15px;
+    }
+    ul.navbar-nav {
+    width: max-content;
+    }
+    .form-search {
+        top: -28px;
+    }
+    .col.btn {
+        margin: 15px 0px 0px -10px;
+    }
+    .row.labelinput {
+        font-size: 16px;
+    }
+    .Travellers {
+        font-size: 16px;
+        padding: 8px!important;
+    }
+    .btn.btn-primary.s {
+        padding: 7px 40px;
+        font-size: 14px;
+    }
+    .footmobile {
+        float: right;
+        MARGIN: -46PX 100PX 0PX 0PX;
+    }
+    .form-control {
+        padding: 10px 35px;
+        width: 100%;
+    }
+    .bt1 {
+       
+        padding: 5PX 18PX;
+        top: -40PX;
+        RIGHT: 0PX;
+    }
+}
+
+/*992-768*/
+@media only screen and (max-width: 992px) and (min-width:768px ) {
+    .container {
+        max-width: 834PX;
+    }
+    .header_logo{
+width: 20%!important;
+    }
+nav.navbar.navbar-expand-lg.navbar-light {
+        position: relative;
+        top: -250px;
+        LEFT: 50%;
+    }
+
+    ul.navbar-nav {
+    width: max-content;
+    }
+    .form-search {
+        top: -28px;
+    }
+    .col.btn {
+        margin: 7px 0px 0px -10px;
+    }
+    .row.labelinput {
+        font-size: 8px;
+    }
+    .Travellers {
+        font-size: 10px;
+    padding: 5px!important;
+}
+    .btn.btn-primary.s {
+        padding: 7px 22px;
+        font-size: 10px;
+    }
+    .form-control {
+       
+        width: 100%;
+    }
+    .bt1 {
+        padding: 5PX 12PX;
+        top: -40PX;
+        RIGHT: 0PX;
+    }
+}
+/*768-576*/
+@media only screen and (max-width: 768px) and (min-width:576px ) {
+    .container {
+        max-width:576px; 
+    }
+    .header_logo{
+width: 20%!important;
+    }
+   /* nav.navbar.navbar-expand-lg.navbar-light {
+        position: relative;
+        position: relative;
+        top: -180px;
+}*/
+    ul.navbar-nav {
+    width: max-content;
+    }
+    .form-search {
+        top: -28px;
+    }
+    .col.btn {
+        margin: 7px 0px 0px -10px;
+    }
+    ul.nav.nav-tabs {
+        font-size: 10px;
+        justify-content: center;
+        top: -18px;
+    }
+    .svg{
+    width: 40%;
+    }
+    a.sign_up {
+   
+        padding: 9px 20px;
+        
+        top: 10px;
+       }
+    a.sign_in {
+       
+    
+        padding: 9px 16px;
+        top: 4px;
+    }
+    a.agent {
+      
+        padding: 9px 16px;
+        top: 0px;
+    }
+    .tel {
+      
+        padding: 10px 10px;
+      
+        top: 0px;
+    }
+    .radio-inline{
+    font-size: 12px;
+    }
+    .row.labelinput {
+        font-size: 6px;
+    }
+    .Travellers {
+        font-size: 7px;
+        padding: 4px!important;
+    }
+    .btn.btn-primary.s {
+        padding: 7px 22px;
+        font-size: 8px;
+    }
+    .Domestic{
+        font-family: 'Inter';
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+    color: #373F41;
+    }
+    .sub {
+        font-size: 9px;
+        padding: 0px 0px 0px 0px;
+    }
+    .file {
+        padding-left: 20px;
+        background-size: 12px;
+        right: 50px;
+        margin: -18px 0px 0px 0px;
+    }
+    .GOSBI{
+        font-size: 12px!important;
+    }
+    .reli1 {
+        font-size: 18px;
+    }
+    .afford{
+        FONT-SIZE: 13PX;
+        margin: 45px 13px;
+        padding: 0px 16px;
+    }
+    .afford2{
+        FONT-SIZE: 13PX;
+        margin: 45px 13px;
+        padding: 0px 16px;
+    }
+    .afford3{
+        FONT-SIZE: 13PX;
+        margin: 45px 13px;
+        padding: 7px 12px;
+    }
+    h3.head {
+        font-size: 25px;
+    }
+    h3.head1 {
+        font-size: 25px;
+    }
+    .london {
+        margin: 0px 0px 0px 0px;
+    }
+    .flow {
+        width: 14%;
+    }
+    .price {
+        margin: -5px 0px;
+    }
+    .describe{
+        top: -70px;
+        padding: 0px 0px;
+    }
+    .price1 {
+        font-size: 14px;
+    }
+    .tour{
+        font-size: 14px;
+    }
+    .night{
+        font-size: 14px;
+    }
+    .act {
+        background-size: 11px;
+        top: -30px;
+        font-size: 13px;
+    }
+    .app {
+        MARGIN: 0PX 0PX 0PX 30PX;
+    }
+    .log {
+        MARGIN: 0PX 0PX 0PX 30PX;
+        padding: 0px 0px 13px 0px;
+    
+    }
+    .ftmobil{
+        width: 100%;
+    }
+    .footmobile {
+        MARGIN: -45PX 50PX 0PX 0PX;
+    }
+        p.paparagrh {
+            font-size: 14px;
+        }
+        .applog {
+            margin:0px;
+        }
+        img.appStore {
+            margin: 0px;
+        }
+        /*.form-control {
+            width: 64%;
+        }*/
+        .bt1 {
+            padding: 4PX 8PX;
+            /* left: -186PX; */
+            right: -60px;
+        }
+}
+/*576-320*/
+@media only screen and (max-width: 576px) and (min-width:320px ) {
+   
+    .header_logo{
+    width: 30%!important;
+     }
+     h1{
+        font-size: 25px!important;
+     }
+   h3{
+    font-size: 20px!important;
+   }
+   nav.navbar.navbar-expand-lg.navbar-light {
+    float: right;
+    POSITION: relative;
+    BOTTOM: 190PX;
+    font-size: 14px;
+    }
+    .col.btn {
+        margin: 20px 0px 0px -20px;
+    }
+    li.nav-item.TAB {
+    
+        
+        padding: 8px 0px 8px 0px; 
+       
+    }
+       /* nav.navbar.navbar-expand-lg.navbar-light {
+            position: relative;
+            top: -200px;
+    }*/
+    li.nav-item {
+        margin: 15px 0px 0px 0px;
+    }
+    a.sign_up {
+   
+        padding: 9px 20px;
+        
+        top: 10px;
+       }
+    a.sign_in {
+       
+    
+        padding: 9px 16px;
+        top: 4px;
+    }
+    a.agent {
+      
+        padding: 9px 16px;
+        top: 0px;
+    }
+    .tel {
+      
+        padding: 10px 0px;
+      
+        top: 0px;
+    }
+    a#tabflight {
+        margin: 16px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    a#tabhotel {
+        margin: 10px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    a#tabtour {
+         margin: 13px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    a#tabholiday  {
+         margin: 10px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    a#tabcar {
+      margin: 21px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    a#tabcruise {
+        margin: 16px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    a#tabtrain{
+        margin: 10px 0px 0px 0px; 
+        font-size: 10px;
+    }
+    .most{
+            margin: 40px 0px 0px 0px;
+    }
+   /* li.nav-item.TAB {
+        margin: 0px 2px;
+        padding: 4px 0px 2px 0px;
+    }*/
+        ul.navbar-nav {
+        width: max-content;
+        }
+        .form-search {
+            top: -28px;
+        }
+       
+        ul.nav.nav-tabs {
+            font-size: 0px;
+            justify-content: space-around;
+            top: -10px;
+        }
+        .svg {
+            width: 40%;
+        }
+        .radio-inline{
+        font-size: 10px;
+        }
+        .row.labelinput {
+            font-size: 18px;
+            margin: 0px 0px;
+            width: 105%;
+        }
+        .Travellers {
+            font-size: 10px;
+            padding: 12px!important;
+        }
+        .btn.btn-primary.s {
+            padding: 10px 24px;
+            font-size: 12px;
+        }
+        .Domestic{
+          
+            font-size: 12px;
+            margin: 0px 0px 0px 0px;
+        }
+        .sub {
+            font-size: 9px;
+            padding: 0px 0px 0px 0px;
+        }
+        .file {
+            padding-left: 20px;
+            background-size: 11px;
+            left: 50px;
+            margin: -20px 0px 0px 0px;
+        }
+        .GOSBI {
+            font-size: 11px!important;
+        }
+        .reli1 {
+            font-size: 14px;
+        }
+        .afford {
+            FONT-SIZE: 12PX;
+            margin: 45px 0px;
+            padding: 10px 16px;
+        }
+        .afford2 {
+            FONT-SIZE: 12PX;
+            margin: 45px 8px;
+            padding: 10px 16px;
+        }
+        .afford3 {
+            FONT-SIZE: 12PX;
+            margin: 45px 0px;
+            padding: 10px 10px;
+        }
+        h3.head {
+            font-size: 20px;
+        }
+        h3.head1 {
+            font-size: 20px;
+        }
+        .london {
+            margin: 0px 0px 0px 35px;
+        }
+        .flow {
+            width: 14%;
+        }
+        .price {
+            margin: -5px 0px;
+        }
+        .describe{
+       
+            padding: 0px 0px;
+        }
+        .price1 {
+            font-size: 14px;
+        }
+        .tour{
+            font-size: 14px;
+        }
+        .night{
+            font-size: 14px;
+        }
+        .act {
+            background-size: 7px;
+            padding: 0px 0px 0px 18px;
+            top: -30px;
+            font-size: 6px;
+        }
+        .app {
+            MARGIN: 0PX 0PX 0PX 30PX;
+        }
+        .log {
+            MARGIN: 0PX 0PX 0PX 30PX;
+            padding: 0px 0px 13px 0px;
+        
+        }
+        
+        .ftmobil{
+            width: 100%;
+        }
+        .footmobile {
+           display: none;
+        }
+            p.paparagrh {
+                font-size: 14px;
+            }
+            .applog {
+                margin:0px;
+            }
+            img.appStore {
+                margin: 0px 0px 0px 0px; 
+            }
+            .form-control {
+                width: 64%;
+            }
+            .bt1 {
+                padding: 3PX 0PX;
+                left: -124PX;
+            }
+            .place {
+                font-size: 12px;
+            }
+}
+/*497-320px*/
+@media only screen and (max-width: 497px) and (min-width:320px ) {
+   
+    .header_logo{
+    width: 20%!important;
+     }
+     .most-d{
+        display: block;
+     }
+   
+     nav.navbar.navbar-expand-lg.navbar-light {
+        position: relative;
+        top: -170px;
+    }
+    li.nav-item {
+        margin: 15px 0px 0px 0px;
+    }
+    a.sign_up {
+   
+        padding: 9px 20px;
+        
+        top: 10px;
+       }
+    a.sign_in {
+       
+    
+        padding: 9px 16px;
+        top: 4px;
+    }
+    a.agent {
+      
+        padding: 9px 16px;
+        top: 0px;
+    }
+    .tel {
+      
+        padding: 10px 0px;
+      
+        top: 0px;
+    }
+    a#tabflight {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabhotel {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabtour {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabholiday  {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabcar {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabcruise {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabtrain{
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    .place {
+        background-size: 10px;
+        font-size: 12px;
+        width: -webkit-fill-available!important;
+        padding: 0px 0px 0px 16px;
+    }
+    li.nav-item.TAB {
+        margin: 0px 0px;
+       /* padding: 4px 0px 2px 0px;*/
+    }
+    ul.navbar-nav {
+        /* width: max-content; */
+        float: right;
+        font-size: 10px;
+    }
+        .form-search {
+            top: -28px;
+        }
+        .col.btn {
+            margin: 18px 0px 0px -10px;
+        }
+        ul.nav.nav-tabs {
+            font-size: 0px;
+            margin: 0px;
+            justify-content: space-around;
+            top: -18px;
+        }
+        .svg {
+            width: 30%;
+        }
+        .radio-inline{
+        font-size: 9px;
+        }
+        .row.labelinput {
+            font-size: 15px;
+            width: 105%;
+        }
+        .Travellers {
+            font-size: 7px;
+            padding: 10px!important;
+        }
+        .btn.btn-primary.s {
+            padding: 7px 22px;
+            font-size: 8px;
+        }
+        .Domestic {
+            font-size: 10px;
+            margin: 0px 0px 0px 0px;
+        }
+        .sub {
+            font-size: 8px;
+            padding: 3px 31px 0px 0px;
+        }
+        .file {
+            padding-left: 17px;
+            background-size: 8px;
+            left: 30px;
+            /* margin: -20px 0px 0px 0px; */
+        }
+        .GOSBI {
+            font-size: 10px!important;
+        }
+        .reli1 {
+            font-size: 18px;
+        }
+        .most {
+            margin: 0px 50px 20px 50px;
+        }
+        .afford {
+          
+            margin: 13px 0px;
+            padding: 10px 16px;
+        }
+        .afford2 {
+         
+            margin: 10px 0px;
+            padding: 10px 12px;
+        }
+        .afford3 {
+         
+            margin: 14px 0px;
+            padding: 10px 16px;
+        }
+        h3.head {
+            font-size: 18px;
+        }
+        h3.head1 {
+            font-size: 18px;
+        }
+        .london {
+            margin: 0px 0px 0px 25px;
+        }
+        .flow {
+            width: 14%;
+        }
+        .price {
+            margin: -5px 0px;
+        }
+        .describe{
+            top: -70px;
+            padding: 0px 0px;
+        }
+        .price1 {
+            font-size: 14px;
+        }
+        .tour{
+            font-size: 14px;
+        }
+        .night{
+            font-size: 14px;
+        }
+        .act {
+            background-size: 6px;
+            padding: 0px 0px 0px 10px;
+            top: -30px;
+            font-size: 6px;
+        }
+        .app {
+            MARGIN: 0PX 0PX 0PX 30PX;
+        }
+        .log {
+            MARGIN: 0PX 0PX 0PX 30PX;
+            padding: 0px 0px 13px 0px;
+        
+        }
+        
+        .ftmobil {
+            width: 130%;
+        }
+        .footmobile {
+           display: none;
+        }
+        p.paparagrh {
+            font-size: 12px;
+        }
+            .applog {
+                margin:0px;
+            }
+            img.appStore {
+                margin: 0px 0px 0px 0px;
+            }
+            .form-control {
+                width: 75%;
+            }
+            .bt1 {
+                padding: 6PX 0PX;
+                left: -88PX;
+                font-size: 12px;
+            }
+}
+
+/*320-200px*/
+@media only screen and (max-width: 320px) and (min-width:200px ) {
+   
+    .header_logo{
+    width: 20%!important;
+     }
+     .most-d{
+        display: block;
+     }
+   
+     nav.navbar.navbar-expand-lg.navbar-light {
+        position: relative;
+        top: -170px;
+        LEFT: 50%;
+    }
+    li.nav-item {
+        margin: 15px 0px 0px 0px;
+    }
+    a.sign_up {
+   
+        padding: 9px 20px;
+        
+        top: 10px;
+       }
+    a.sign_in {
+       
+    
+        padding: 9px 16px;
+        top: 4px;
+    }
+    a.agent {
+      
+        padding: 9px 16px;
+        top: 0px;
+    }
+    .tel {
+      
+        padding: 10px 0px;
+      
+        top: 0px;
+    }
+    a#tabflight {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabhotel {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabtour {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabholiday  {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabcar {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabcruise {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabtrain{
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    .place {
+        background-size: 10px;
+        font-size: 18px;
+        width: -webkit-fill-available!important;
+        padding: 0px 0px 0px 16px;
+    }    
+    li.nav-item.TAB {
+        margin: 0px 0px;
+       /* padding: 4px 0px 2px 0px;*/
+    }
+    ul.navbar-nav {
+        /* width: max-content; */
+        float: right;
+        font-size: 10px;
+    }
+        .form-search {
+            top: -28px;
+        }
+        .col.btn {
+            margin: 7px 0px 0px -10px;
+        }
+        ul.nav.nav-tabs {
+            font-size: 0px;
+            justify-content: space-evenly;
+            top: -18px;
+        }
+        .svg {
+            width: 30%;
+        }
+        .radio-inline{
+        font-size: 9px;
+        }
+        .row.labelinput {
+            font-size: 15px;
+            width: 105%;
+        }
+        .Travellers {
+            font-size: 7px;
+            padding: 10px!important;
+        }
+        .btn.btn-primary.s {
+            padding: 7px 22px;
+            font-size: 8px;
+        }
+        .Domestic {
+            font-size: 10px;
+            margin: 0px 0px 0px 0px;
+        }
+        .sub {
+            font-size: 8px;
+            padding: 3px 31px 0px 0px;
+        }
+        .file {
+            padding-left: 17px;
+            background-size: 8px;
+            left: 30px;
+            /* margin: -20px 0px 0px 0px; */
+        }
+        .GOSBI {
+            font-size: 10px!important;
+        }
+        .reli1 {
+            font-size: 18px;
+        }
+        .most {
+            margin: 0px 50px 20px 50px;
+        }
+        .afford {
+          
+            margin: 13px 0px;
+            padding: 10px 16px;
+        }
+        .afford2 {
+         
+            margin: 10px 0px;
+            padding: 10px 12px;
+        }
+        .afford3 {
+         
+            margin: 14px 0px;
+            padding: 10px 16px;
+        }
+        h3.head {
+            font-size: 18px;
+        }
+        h3.head1 {
+            font-size: 18px;
+        }
+        .london {
+            margin: 0px 0px 0px 25px;
+        }
+        .flow {
+            width: 14%;
+        }
+        .price {
+            margin: -5px 0px;
+        }
+        .describe{
+            top: -70px;
+            padding: 0px 0px;
+        }
+        .price1 {
+            font-size: 14px;
+        }
+        .tour{
+            font-size: 14px;
+        }
+        .night{
+            font-size: 14px;
+        }
+        .act {
+            background-size: 6px;
+            padding: 0px 0px 0px 10px;
+            top: -30px;
+            font-size: 6px;
+        }
+        .app {
+            MARGIN: 0PX 0PX 0PX 30PX;
+        }
+        .log {
+            MARGIN: 0PX 0PX 0PX 30PX;
+            padding: 0px 0px 13px 0px;
+        
+        }
+        
+        .ftmobil {
+            width: 130%;
+        }
+        .footmobile {
+           display: none;
+        }
+        p.paparagrh {
+            font-size: 12px;
+        }
+            .applog {
+                margin:0px;
+            }
+            img.appStore {
+                margin: 0px 0px 0px 0px;
+            }
+            .form-control {
+                width: 64%;
+            }
+            .bt1 {
+                padding: 6PX 0PX;
+                left: -88PX;
+                font-size: 12px;
+            }
+}
+
+/*200-70px*/
+@media only screen and (max-width: 200px) and (min-width:70px ) {
+   
+    .header_logo{
+    width: 20%!important;
+     }
+     .most-d{
+        display: flow-root;
+     }
+   
+     nav.navbar.navbar-expand-lg.navbar-light {
+        position: relative;
+        top: -170px;
+    }
+    a.sign_up {
+   
+        padding: 9px 20px;
+        
+        top: 10px;
+       }
+       li.nav-item {
+        margin: 15px 0px 0px 0px;
+    }
+    a.sign_in {
+       
+    
+        padding: 9px 16px;
+        top: 4px;
+    }
+    a.agent {
+      
+        padding: 9px 16px;
+        top: 0px;
+    }
+    .tel {
+      
+        padding: 10px 0px;
+      
+        top: 0px;
+    }
+    a#tabflight {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabhotel {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabtour {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabholiday  {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabcar {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabcruise {
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    a#tabtrain{
+        /* margin: 10px 0px 0px 0px; */
+        font-size: 6px;
+    }
+    .place {
+        background-size: 10px;
+        font-size: 18px;
+        width: -webkit-fill-available!important;
+        padding: 0px 0px 0px 16px;
+    }    
+    li.nav-item.TAB {
+        margin: 0px 0px;
+       /* padding: 4px 0px 2px 0px;*/
+    }
+    ul.navbar-nav {
+        /* width: max-content; */
+        float: right;
+        font-size: 10px;
+    }
+        .form-search {
+            top: -28px;
+        }
+        .col.btn {
+            margin: 7px 0px 0px -10px;
+        }
+        ul.nav.nav-tabs {
+            font-size: 0px;
+            margin: 15PX;
+            justify-content: space-evenly;
+            top: -5px;
+        }
+        .svg {
+            width: 25%;
+        }
+        .radio-inline{
+        font-size: 9px;
+        }
+        .row.labelinput {
+            font-size: 15px;
+            width: 105%;
+        }
+        .Travellers {
+            font-size: 5px;
+            padding: 10px!important;
+        }
+        .btn.btn-primary.s {
+            padding: 7px 22px;
+            font-size: 8px;
+        }
+        .Domestic {
+            font-size: 10px;
+            margin: 0px 0px 0px 0px;
+        }
+        .sub {
+            font-size: 8px;
+            padding: 3px 31px 0px 0px;
+        }
+        .file {
+            padding-left: 17px;
+            background-size: 8px;
+            left: 30px;
+            /* margin: -20px 0px 0px 0px; */
+        }
+        .GOSBI {
+            font-size: 10px!important;
+        }
+        .reli1 {
+            font-size: 18px;
+        }
+       
+        .afford {
+          
+            margin: 13px 0px;
+            padding: 10px 16px;
+        }
+        .afford2 {
+         
+            margin: 10px 0px;
+            padding: 10px 12px;
+        }
+        .afford3 {
+         
+            margin: 14px 0px;
+            padding: 10px 16px;
+        }
+        h3.head {
+            font-size: 18px;
+        }
+        h3.head1 {
+            font-size: 18px;
+        }
+        .london {
+            margin: 0px 0px 0px 0px;
+        }
+        .flow {
+            width: 14%;
+        }
+        .price {
+            margin: -5px 0px;
+        }
+        .describe{
+            top: -70px;
+            padding: 0px 0px;
+        }
+        .price1 {
+            font-size: 14px;
+        }
+        .tour{
+            font-size: 14px;
+        }
+        .night{
+            font-size: 14px;
+        }
+        .act {
+            background-size: 6px;
+            padding: 0px 0px 0px 10px;
+            top: -30px;
+            font-size: 6px;
+        }
+        .app {
+            MARGIN: 0PX 0PX 0PX 30PX;
+        }
+        .log {
+            MARGIN: 0PX 0PX 0PX 30PX;
+            padding: 0px 0px 13px 0px;
+        
+        }
+        
+        .ftmobil {
+            width: 130%;
+        }
+        .footmobile {
+           display: none;
+        }
+        p.paparagrh {
+            font-size: 12px;
+        }
+            .applog {
+                margin:0px;
+            }
+            img.appStore {
+                margin: 0px 0px 0px 0px;
+            }
+            .form-control {
+                width: 64%;
+            }
+            .bt1 {
+                padding: 6PX 0PX;
+                left: -60PX;
+                font-size: 12px;
+            }
+        }

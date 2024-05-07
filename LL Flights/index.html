@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>LL Flights!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0; user-scalable=0;" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts/GTWalsheimPro-UltraLight/" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <!-- Content here -->
+        <div class="Flight_banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-4">
+                        <img class="header_logo" src="img/logo.png" alt="logo" style="width: 30%;">
+                        <h1>Explore the world</h1>
+                        <h3 style="color:#140C68;">Find the best flight deals</h3>
+                        <br>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-8">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div>
+                              <!-- <a class="navbar-brand" href="#">
+                                
+                              </a> -->
+                                          
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                    <a class="tel" href="tel:+1-855-889-3336">
+                                        <i class="fab fa-whatsapp"></i>+1-855-889-3336
+                                    </a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <img src="img/country.png">
+                                      <span>AUD</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <li> <a class="dropdown-item" href="#">
+                                        <img src="img/country.png">
+                                        <span>EUR</span>
+                                    </a></li>
+                                      <li> <a class="dropdown-item" href="#">
+                                        <img src="img/country.png">
+                                        <span>GBP</span>
+                                    </a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <img src="img/country.png">
+                                            <span>JPY</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <img src="img/country.png">
+                                            <span>CAD</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <img src="img/country.png">
+                                            <span>USD</span>
+                                        </a>
+                                    </li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="agent" href="#">Agent Login</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="sign_in" href="#">Sign in</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="sign_up" href="#">Sign Up</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+                <!--nav tabs-->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item active TAB">
+                        <img class="svg" src="img/Vector 1.png" alt="SVG" />
+                        <a class="nav-link" id="tabflight" data-bs-toggle="tab" href="#home">Flight</a>
+                    </li>
+                    <li class="nav-item TAB">
+                        <img class="svg" src="img/building 1.svg" alt="SVG" />
+                        <a class="nav-link" id="tabhotel" data-bs-toggle="tab" href="#menu1">Hotels</a>
+                    </li>
+                    <li class="nav-item TAB">
+                        <img class="svg" src="img/Vector (2).svg" alt="SVG" />
+                        <a class="nav-link" id="tabtour" data-bs-toggle="tab" href="#menu1">Tours</a>
+                    </li>
+                    <li class="nav-item TAB">
+                        <img class="svg" src="img/Vector 3.svg" alt="SVG" />
+                        <a class="nav-link" id="tabholiday" data-bs-toggle="tab" href="#menu1">Holidays</a>
+                    </li>
+                    <li class="nav-item TAB">
+                        <img class="svg" src="img/Vector 4.svg" alt="SVG" />
+                        <a class="nav-link" id="tabcar" data-bs-toggle="tab" href="#menu1">Cars</a>
+                    </li>
+                    <li class="nav-item TAB">
+                        <img class="svg" src="img/Vector 5.svg" alt="SVG" />
+                        <a class="nav-link" id="tabcruise" data-bs-toggle="tab" href="#menu1">Cruise</a>
+                    </li>
+                    <li class="nav-item TAB">
+                        <img class="svg" src="img/path7.svg" alt="SVG" />
+                        <a class="nav-link" id="tabtrain" data-bs-toggle="tab" href="#menu1">Trains</a>
+                    </li>
+                </ul>
+                <div class="form-search">
+                    <div class="container">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="row">
+                                    <div class="col">
+                                        <form>
+                                            <div class="radio">
+                                                <div class="radio-inline active">
+                                                    <input type="radio" id="O1" value="one-way" name="optradio" checked/>
+                                                    <label class="way" for="O1">One-way</label>
+                                                </div>
+                                                <div class="radio-inline">
+                                                    <input type="radio" id="Ro1" value=">roundtrip / return" name="optradio">
+                                                    <label class="way" for="Ro1">Roundtrip / Return</label>
+                                                </div>
+                                                <div class="radio-inline">
+                                                    <input type="radio" id="M1" value="multi-city" name="optradio">
+                                                    <label class="way" for="M1">Multi-city</label>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row labelinput">
+                                    <div class="col">
+                                        <label class="labelcontent">Form</label>
+                                        <input class="place" placeholder="Basrah airport">
+                                    </div>
+                                    <div class="col">
+                                        <label class="labelcontent">To</label>
+                                        <input class="place" placeholder="Baghdad airport">
+                                    </div>
+                                    <div class="col">
+                                        <label class="labelcontent">Departure</label>
+                                        <input type="text" class="date" placeholder="Mon 05/12" id="datepicker">
+                                    </div>
+                                    <div class="col">
+                                        <label class="labelcontent">Return</label>
+                                        <input type="text" class="date" placeholder="Mon 05/12" id="datepicker1">
+                                    </div>
+
+
+                                    <div class="col">
+                                        <label class="labelcontent">Travellers</label>
+                                        <select id="Traveler" class="Travellers" placeholder="1 Traveller"
+                                            style="padding: 9px;">
+                                            <option value="1 Travellers">1 Travellers</option>
+                                            <option value="2 Travellers">2 Travellers</option>
+                                            <option value="3 Travellers">3 Travellers</option>
+                                            <option value="4 Travellers">4 Travellers</option>
+                                        </select>
+                                    </div>
+                                    <div class="col btn">
+                                        <button type="button" class="btn btn-primary s"
+                                            onclick="alert('Kindly fill the details Correctly!')">
+                                            Search
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="direct">
+                                    <input type="checkbox" id="direct" name="direct" value="flight" class="directbox">
+                                    <label class="direct"> Direct flight only</label>
+                                    <br>
+                                </div>
+                            </div>
+                            <!--Menu-->
+                            <div class="tab  fade" id="menu1">
+                                <div class="container">
+                                    COMING SOON!!!!!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!--Offers & Deals-->
+
+    <div class="special">
+        <div class="container">
+            <div class="offr">
+                <h3 class="head">Offers &amp; Deals</h3>
+            </div>
+            <div class="d-flex">
+                <div id="deal1" class="owl-carousel owl-theme">
+                    <div class="col-md-12 col-lg-12 col-sm-12 bgs_whites">
+                        <div class="item">
+                            <div class=" row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <img src="img/flight1.jpg" alt="ticket" class="imgoffer">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div>
+                                        <div>
+                                            <h4 class="Domestic">500 Points bonus on Domestic Flights</h4>
+                                        </div>
+                                        <p class="sub" card="subtitle">With SBI Credit Card &amp; Debit Card EMI</p>
+                                    </div>
+                                    <hr>
+                                     <div CLASS="file">
+                                            <span class="GOSBI">GOSBI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-12 col-sm-12 bgs_whites">
+                        <div class="item">
+                            <div class=" row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <img src="img/flight1.jpg" alt="ticket" class="imgoffer">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div>
+                                        <div >
+                                            <h4 class="Domestic"> 500 Points bonus on Domestic Flights</h4>
+                                        </div>
+                                        <p class="sub" card="subtitle">With SBI Credit Card &amp; Debit Card EMI</p>
+                                    </div>
+                                     <hr>
+                                        <div CLASS="file">
+                                            <span class="GOSBI">GOSBI</span>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Get the most affordableand reliable deals-->
+    <div class="reliable">
+        <div class="container">
+            <div class="most-d">
+                <div class="most"><span class="reli1">Get the most affordable and reliable deals
+                    </span></div>
+                <div class="afford">
+                    Assured Best Fares
+                </div>
+                <div class="afford2">
+                    24/7 Customer Support
+                </div>
+                <div class="afford3">
+                    One stop for All Travel Services
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Top Hotel Destinations-->
+    <div class="Top">
+        <div class="container">
+            <div class="Destination">
+                <h3 class="head">Top Hotel Destinations</h3>
+            </div>
+            <div id="deal2" class="owl-carousel owl-theme" style="margin: 0px -17px;">
+                <div style="display: flex;">
+                    <div class="item">
+                        <div class="card package">
+                            <img class="card-img-top" src="img/1.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card package">
+                            <img class="card-img-top" src="img/2.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card package">
+                            <img class="card-img-top" src="img/3.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card package">
+                            <img class="card-img-top" src="img/4.png" alt="Card image cap">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card package">
+                            <img class="card-img-top" src="img/5.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Top Flights Destinations-->
+    <div class="Dflights">
+        <div class="container">
+            <div class="Dtop">
+                <h3 class="head">Top Flight Destinations</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/1.png"><span class="london">London<svg class="arrow"
+                                xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/2.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/3.png"><span class="london">London<svg class="arrow"
+                                xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/4.png"><span class="london">London<svg class="arrow"
+                                xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/5.png"><span class="london">London<svg class="arrow"
+                                xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/1.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/2.png"><span class="london">London<svg class="arrow"
+                                xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/3.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/4.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/5.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/1.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col flo"><img class="flow" src="img/2.png"><span class="london">London <svg
+                                class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="14"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z" />
+                            </svg>Lisbon</span></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Popular holiday packages-->
+
+    <div class="Holiday">
+        <div class="container">
+            <div class="popular">
+                <h3 class="head">Popular holiday packages</h3>
+            </div>
+            <div id="pack" class="owl-carousel owl-theme">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="item">
+                            <div class="price">
+                                <spanb class="price1">₹ 27,360 per person</span>
+                            </div>
+                            <img class="group1" alt="" src="img/img1.png" />
+                            <div class="describe">
+                                <span class="tour">Bali Cultural Adventure Tour</span>
+                                <div></div>
+                                <p class="night">8 Nights / 7 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="row">
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="item">
+                                    <div class="price">
+                                        <span class="price1">₹ 27,360 per person</span>
+                                    </div>
+                                    <img class="group1" alt="" src="img/img2.png" />
+                                    <div class="describe">
+                                        <span class="tour">Bali Cultural Adventure Tour</span>
+                                        <div>
+                                            <p class="night">8 Nights / 7 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6 top">
+                                <div class="item">
+                                    <div class="price">
+                                        <span class="price1">₹ 27,360 per person</span>
+                                    </div>
+                                    <img class="group1" alt="" src="img/img3.png" />
+                                    <div class="describe">
+                                        <span class="tour">Bali Cultural Adventure Tour</span>
+                                        <div>
+                                            <p class="night">8 Nights / 7 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6 top">
+                                <div class="item">
+                                    <div class="price">
+                                        <span class="price1">₹ 27,360 per person</span>
+                                    </div>
+                                    <img class="group1" alt="" src="img/img3.png" />
+                                    <div class="describe">
+                                        <span class="tour">Bali Cultural Adventure Tour</span>
+                                        <div>
+                                            <p class="night">8 Nights / 7 Days</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="item">
+                            <div class="price">
+                                <span class="price1">₹ 27,360 per person</span>
+                            </div>
+                            <img class="group1" alt="" src="img/img1.png" />
+                            <div class="describe">
+                                <span class="tour">Bali Cultural Adventure Tour</span>
+                                <div>
+                                    <p class="night">8 Nights / 7 Days</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Top activities-->
+            <div class="Activity">
+                <div class="container">
+                    <div class="Activities">
+                        <h3 class="head">Top activities</h3>
+                    </div>
+                    <div id="top" class="owl-carousel owl-theme" style="margin: 0px -30px;">
+                        <div style="display: flex;">
+                            <div class="item">
+                                <div class="card package">
+                                    <img class="card-img-top" src="img/act1.png" alt="Card image cap">
+                                    <div class="act">Paris</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card package">
+                                    <img class="card-img-top" src="img/act2.png" alt="Card image cap">
+                                    <div class="act">London</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card package">
+                                    <img class="card-img-top" src="img/act3.png" alt="Card image cap">
+                                    <div class="act">New York</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card package">
+                                    <img class="card-img-top" src="img/act4.png" alt="Card image cap">
+                                    <div class="act">Monaco</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card package">
+                                    <img class="card-img-top" src="img/act5.png" alt="Card image cap">
+                                    <div class="act">Paris</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="container-fluid p-1">
+        <div class="Accept">
+            <div class="footmobile"><img class="ftmobil" src="img/footermobile.png"></div>
+            <div class="app">
+                <h3 class="head1"> Download <span style=" color:#0D9ECD;
+                font-weight: bold;"> LLL Travel </span> App</h3>
+            </div>
+            <div class="log">
+                <p class="paparagrh">Download App for a seemless & Immersive Experience</p>
+                <div class="applog"> <img src="img/Google_Play.png">
+                    <img src="img/AppStore.png" class="appStore">
+                </div>
+            </div>
+        </div>
+        <footer class="foot">
+
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <ul>
+                                <h6 class="text-uppercase mb-4 font-weight-bold">About us</h6>
+
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Terms & Conditions</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Privacy Policy</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">User Agreement</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Disclaimer Policy</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+
+                                    <a href="https://www.facebook.com/" id="fb"
+                                        class="btn btn-outline-light btn-floating m-1" role="button"><i
+                                            class="fab fa-facebook-f">
+                                        </i></a> <a href="https://www.Instagram.com/" id="insta"
+                                        class="btn btn-outline-light btn-floating m-1" role="button"><i
+                                            class="fab fa-instagram"></i></a>
+                                </li>
+                                </li>
+                                <ul>
+                        </div>
+
+                        <!-- Grid column -->
+
+                        <hr class="w-100 clearfix d-md-none" />
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <ul>
+                                <h6 class="text-uppercase mb-4 font-weight-bold">
+                                    Quick Links
+                                </h6>
+
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Flights</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Hotels</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Cabs</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Activity</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Bus</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Holiday</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <ul>
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Terms of use</h6>
+
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Team</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Contact Us</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Company</a>
+                                </li>
+                                <li style="padding: 5px 0px 5px 0px;">
+                                    <a href="#" class="text">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <ul>
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Keep Yourself Updating</h6>
+                                <div>
+                                    <input type="email" id="form5Example24" placeholder="Email" class="form-control" />
+                                    <button class="bt1" type="button" onclick="alert('Enter Email!')">Subscribe</button>
+                                </div>
+                                <div class="agency"><span style="color: lightblue;">LLL Travel Agency</span></div>
+
+                                <p>8101 Sandy Road, Los Angeles, United States</p>
+                            </ul> <!-- Grid column -->
+
+                        </div>
+                        <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+
+
+
+                <!-- Section: Copyright -->
+                <section class="p-3 pt-0">
+
+                    <!-- Copyright -->
+                    <div class="p-3 text-center">
+                        Copyright © 2023 LLL Travel Agency. All rights reserved. Powered By <span
+                            style="color: orange;">Provab</span>
+                    </div>
+
+                    <!-- Grid column -->
+            </div>
+            </section>
+            <!-- Section: Copyright -->
+
+            <!-- Grid container -->
+        </footer>
+
+    </div>
+
+    <!-- Footer -->
+
+    <!--script-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+        $(function () {
+            $("#datepicker1").datepicker();
+        });
+
+        var owl = $("#deal1");
+        owl.owlCarousel({
+            loop: true,
+            margin: 20,                     
+            nav:false,
+           responsiveClass:true,
+           
+           responsive:{
+            0:{
+                items:1,
+                
+            },
+           600:{
+                items:2,
+                
+            },
+        
+            }
+        })
+
+        var owl = $("#deal2");
+        owl.owlCarousel({
+            rtl: true,
+            loop: true,
+            margin: 0,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                
+
+            }
+        })
+
+        var owl = $("#top");
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            lazyLoad: true,
+            dots: false,
+            nav: true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+        })
+
+        var owl = $("#pack");
+        owl.owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+            }
+
+        })
+
+    </script>
+
+</body>
+
+</html>
